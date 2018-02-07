@@ -1,0 +1,17 @@
+<html>
+
+  <head>
+    <title>{{ title }}</title>
+  </head>
+
+  <body>
+    <ul>
+      {% for item in items %}
+      <li>{{ escape(item) }}</li>
+      {% end %}
+    </ul>
+    <script src="{{ static_url('backbone-min.js') }}"></script>
+    <script src="{{ static_url('index.js') }}"></script>
+  </body>
+
+</html>

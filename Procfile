@@ -1,1 +1,1 @@
-web: python server/app.py --port=$PORT
+web: python app.py --port=$PORT --database="$DATABASE"

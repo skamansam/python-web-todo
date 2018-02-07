@@ -7,10 +7,7 @@ verify_ssl = true
 [packages]
 
 tornado = "*"
-gunicorn = "*"
-"autopep8" = "*"
-#django-heroku = "*"
-
+psycopg2 = "*"
 
 [requires]
 
